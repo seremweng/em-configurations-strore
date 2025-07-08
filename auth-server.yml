@@ -18,6 +18,6 @@ app:
     admin:
       clientId: admin-cli
       clientSecret: r1dj1Gahv9va4yPRgpCvjTyU7M17BA6b
-    realm: spring
+    realm: em-auth-srver
     serverUrl: http://localhost:9081
 
