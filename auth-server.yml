@@ -1,0 +1,23 @@
+
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${app.keycloak.serverUrl}/realms/${app.keycloak.realm}
+server:
+  port: 9103
+
+app:
+  keycloak:
+    admin:
+      clientId: admin-cli
+      clientSecret: r1dj1Gahv9va4yPRgpCvjTyU7M17BA6b
+    realm: spring
+    serverUrl: http://localhost:9081
+
