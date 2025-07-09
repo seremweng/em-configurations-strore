@@ -25,7 +25,14 @@ app:
   keycloak:
     admin:
       clientId: admin-cli
-      clientSecret: r1dj1Gahv9va4yPRgpCvjTyU7M17BA6b
+      clientSecret: l0lzb1d9Btx040gchwDalxJyeqnaQnS3
     realm: em-auth-srver
     serverUrl: http://localhost:9081
+keycloak:
+  realm: user-management
+  client-id: admin-cli
+  client-secret: l0lzb1d9Btx040gchwDalxJyeqnaQnS3
+  token-uri: http://localhost:9081realms/master/protocol/openid-connect/token
+  base-url: http://localhost:9081/admin/realms/user-management
+
 
