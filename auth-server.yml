@@ -31,8 +31,8 @@ app:
 keycloak:
   realm: user-management
   client-id: admin-cli
-  client-secret: gsvEPn43brtmQp0T5mGTF9YP8QSMHKZm
-  token-uri: http://localhost:9081/realms/master/protocol/openid-connect/token
+  client-secret: l0lzb1d9Btx040gchwDalxJyeqnaQnS3
+  token-uri: http://localhost:9081/realms/user-management/protocol/openid-connect/token
   base-url: http://localhost:9081/admin/realms/user-management
 
 
