@@ -26,7 +26,7 @@ app:
     admin:
       clientId: admin-cli
       clientSecret: l0lzb1d9Btx040gchwDalxJyeqnaQnS3
-    realm: em-auth-srver
+    realm: user-management
     serverUrl: http://localhost:9081
 keycloak:
   realm: user-management
